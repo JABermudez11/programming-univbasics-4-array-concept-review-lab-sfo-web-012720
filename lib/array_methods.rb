@@ -8,7 +8,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max = array[0]
+  max = 0
   for nums in array
     if array[nums] > max
       max = array[nums]
