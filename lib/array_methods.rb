@@ -10,7 +10,7 @@ end
 def find_max_value(array)
   max = 0
   for nums in array
-    if array[nums] > max
+    if (array[nums] > max)
       max = array[nums]
     end
   end
@@ -18,5 +18,5 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  
+
 end
