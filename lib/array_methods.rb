@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
-  for nums in array
-    if array[nums] == value_to_find
-      array.index(array[nums])
+  array.length.times do |index|
+    if array[index] == value_to_find
+      return index
     end
   end
 end
