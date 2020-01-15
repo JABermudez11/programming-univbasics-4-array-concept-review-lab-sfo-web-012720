@@ -18,5 +18,11 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-
+  min = 1
+  array.length.times do |index|
+    if array[index] < min
+      min = array[index]
+    end
+  end
+  max
 end
