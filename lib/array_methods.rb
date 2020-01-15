@@ -9,9 +9,9 @@ end
 
 def find_max_value(array)
   max = 0
-  for nums in array
-    if (array[nums] > max)
-      max = array[nums]
+  array.length.times do |index|
+    if array[index] > max 
+      max = array[index]
     end
   end
   max
